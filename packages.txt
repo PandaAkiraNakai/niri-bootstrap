@@ -1,0 +1,45 @@
+# Paquetes oficiales (repos extra de Arch / CachyOS).
+# Una línea por paquete. Comentarios con #.
+
+# WM y compositor
+niri
+xdg-desktop-portal
+xdg-desktop-portal-gnome   # portal con buen soporte de captura en Wayland
+mako                        # daemon de notificaciones (Wayland-native)
+swaybg                      # fondo de pantalla
+grim                        # screenshots
+slurp                       # selección de área
+
+# Terminal + shell + prompt
+alacritty
+fish
+starship
+
+# Editores / herramientas TUI
+micro
+btop
+fastfetch
+
+# Multimedia / portapapeles / utilidades Wayland
+playerctl
+wl-clipboard
+brightnessctl
+pamixer
+
+# Audio (pipewire stack)
+pipewire
+pipewire-alsa
+pipewire-pulse
+wireplumber
+
+# Fuentes (Nerd Font para iconos del prompt y noctalia)
+ttf-jetbrains-mono-nerd
+
+# Gaming bonus (necesarios si vas a usar gamescope-auto)
+gamescope
+jq
+
+# Utilidades de sistema
+git
+curl
+sqlite

@@ -1,0 +1,7 @@
+# Paquetes AUR. Una línea por paquete.
+# Se instalan con `paru -S --needed` (paru se instala solo si falta y
+# pasas --aur al bootstrap.sh).
+
+# Shell Quickshell-based con widgets para niri / Wayland.
+# Si el nombre cambia upstream, edítalo o coméntalo y armas la shell a mano.
+noctalia-shell
