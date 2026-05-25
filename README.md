@@ -91,3 +91,7 @@ Los paquetes instalados se sacan con `sudo pacman -Rns <pkg>` uno por uno (o tod
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
+
+<!-- profile-excerpt -->
+Script idempotente que parte de un **Arch / CachyOS** limpio y deja el deck listo: paquetes oficiales, AUR vía paru, clone de [`dotfiles`](https://github.com/PandaAkiraNakai/dotfiles), servicios `systemd --user` (pipewire stack) y `chsh` a fish. Flags `--dry-run`, `--no-aur`, `--skip-dotfiles`, `--dotfiles-repo`. Backup automático con timestamp de cualquier config preexistente. `// jack-in desde cero · idempotente · sin sorpresas`
+<!-- /profile-excerpt -->
